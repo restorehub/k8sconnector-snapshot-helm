@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  restorehub-snapshot:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-27T23:04:03.52425+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 95b1fc5d82eaa3646fc66a77183beb4445cb5f13b96c1e2b84b3d398957f595d
+    name: restorehub-snapshot
+    type: application
+    urls:
+    - https://restorehub.github.io/k8sconnector-snapshot-helm/restorehub-snapshot-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-27T23:04:03.398202+01:00"
