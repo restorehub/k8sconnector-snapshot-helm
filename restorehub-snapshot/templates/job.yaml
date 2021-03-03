@@ -9,7 +9,7 @@ spec:
       - name: rhub-snapshot-{{ .Values.snapshotId }}
         image: restorehub/k8sconnector:v0.3
         imagePullPolicy: IfNotPresent
-        command: ["ls",  "-la"]
+        command: ["./connector",  "-snapshot", {{ .Values.snapshotId }}]
       restartPolicy: Never
   backoffLimit: 50
 
