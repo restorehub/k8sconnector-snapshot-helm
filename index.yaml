@@ -3,9 +3,19 @@ entries:
   restorehub-snapshot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-03T10:12:19.8046393+01:00"
+    created: "2021-03-19T13:17:15.95015236Z"
     description: A Helm chart for Kubernetes
-    digest: a66205269eee427923a5b1d1149bf521231b2dc2cb5588c2cf68a8d6fe873d12
+    digest: b6589adfee0bd56192212f7cd239da3b0ca30fe9dc9ce05981578929cd9aa374
+    name: restorehub-snapshot
+    type: application
+    urls:
+    - https://restorehub.github.io/k8sconnector-snapshot-helm/restorehub-snapshot-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-19T13:17:15.949390997Z"
+    description: A Helm chart for Kubernetes
+    digest: f957e02490a4f2c5ef5ee21b45dc9f8859de889800ab7e8e0d219e3e4423ebc4
     name: restorehub-snapshot
     type: application
     urls:
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-03T10:12:19.8046393+01:00"
+    created: "2021-03-19T13:17:15.948030731Z"
     description: A Helm chart for Kubernetes
     digest: 55f36ef90ee6c799edcef795a8e3425562e3e404f7548ad772ff444987de1071
     name: restorehub-snapshot
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://restorehub.github.io/k8sconnector-snapshot-helm/restorehub-snapshot-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-03T10:12:19.8036395+01:00"
+generated: "2021-03-19T13:17:15.94556488Z"
