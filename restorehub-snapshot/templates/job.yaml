@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: rhub-snapshot-{{ .Values.snapshotId }}
-        image: restorehub/k8sconnector:v0.7
+        image: restorehub/k8sconnector:v0.8
         imagePullPolicy: IfNotPresent
         command: ["./connector",  "snapshot", "{{ .Values.snapshotId }}"]
       restartPolicy: Never
