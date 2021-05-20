@@ -9,7 +9,7 @@ spec:
       - name: rhub-snapshot-{{ .Values.snapshotId }}
         image: curlimages/curl:7.76.1
         imagePullPolicy: IfNotPresent
-        command: ["curl",  "gmbadges-restorehub.gm.svc.cluster.local:30900/snapshots", "--data", '{"ID":{{ .Values.snapshotId }}, "Name":{{ .Values.repoName }}']
+        command: ["curl",  "gmbadges-restorehub.gm.svc.cluster.local:30900/snapshots", "--data", '{"ID":{{ .Values.snapshotId }}, "Name": {{ .Values.repoName }} }']
       restartPolicy: Never
   backoffLimit: 50
 
