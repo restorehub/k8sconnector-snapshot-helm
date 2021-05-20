@@ -3,9 +3,9 @@ entries:
   restorehub-snapshot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T21:34:23.043981086Z"
+    created: "2021-05-20T20:50:42.778259352Z"
     description: A Helm chart for Kubernetes
-    digest: 85da4435f11ce2fb1dc209a3b1a31f220db8a74652b1b8db2ea96e760d0137aa
+    digest: 39139272b33e433eb4efc399c777e0426c161524fb74e25326dddfced51cf795
     name: restorehub-snapshot
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T21:34:23.043566015Z"
+    created: "2021-05-20T20:50:42.77784897Z"
     description: A Helm chart for Kubernetes
     digest: a7f73eb5b069f2450c792c412eccb19d7dd63eb2e5bd2d7b0e9e57326cec4e4d
     name: restorehub-snapshot
@@ -23,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T21:34:23.042923383Z"
+    created: "2021-05-20T20:50:42.777258267Z"
     description: A Helm chart for Kubernetes
     digest: b6589adfee0bd56192212f7cd239da3b0ca30fe9dc9ce05981578929cd9aa374
     name: restorehub-snapshot
@@ -33,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T21:34:23.042293311Z"
+    created: "2021-05-20T20:50:42.775809402Z"
     description: A Helm chart for Kubernetes
     digest: f957e02490a4f2c5ef5ee21b45dc9f8859de889800ab7e8e0d219e3e4423ebc4
     name: restorehub-snapshot
@@ -43,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-19T21:34:23.041540138Z"
+    created: "2021-05-20T20:50:42.77527248Z"
     description: A Helm chart for Kubernetes
     digest: 55f36ef90ee6c799edcef795a8e3425562e3e404f7548ad772ff444987de1071
     name: restorehub-snapshot
@@ -51,4 +51,4 @@ entries:
     urls:
     - https://restorehub.github.io/k8sconnector-snapshot-helm/restorehub-snapshot-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T21:34:23.037413364Z"
+generated: "2021-05-20T20:50:42.774016145Z"
